@@ -1,0 +1,40 @@
+@mixin mainButton{
+  .button{
+    padding: 16px 40px;
+    border-radius: 12px;
+    background: #FF6433;
+    color: #FFF;
+    line-height: 175%;
+  }
+}
+
+@mixin hoverEff{
+  position: relative;
+
+  &::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #1E1B1B;
+    transition: all .3s;
+  }
+
+  &:hover {
+    &::before{
+      width: 100%;
+    }
+  }
+}
+
+@mixin heading__title{
+  .heading__title {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 76px;
+    letter-spacing: -1.74px;
+  }
+}

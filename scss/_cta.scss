@@ -1,0 +1,27 @@
+.cta {
+  position: relative;
+}
+.cta__img-box {
+  display: flex;
+}
+.cta__img{
+}
+.cta__content {
+  background-color: #FF6433;
+  padding: 128px 80px;
+  color: #fff;
+  max-width: 730px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.cta__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -1.44px;
+  margin-bottom: 48px;
+}
+.cta__button {
+  background: #1E1B1B;
+}

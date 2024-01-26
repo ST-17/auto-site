@@ -1,0 +1,37 @@
+@import "_reset.scss";
+
+html, body{
+  font-family: Manrope, sans-serif;
+  color: #1E1B1B;
+  line-height: 150%;
+  font-weight: 600;
+}
+
+.wrapper{
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container{
+  max-width: 1300px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.heading__title--center{
+  text-align: center
+}
+
+@import "header";
+@import "offer";
+@import "process";
+@import "cta";
+@import "exp";
+@import "brand";
+@import "blog";
+@import "customers";
+@import "faq";
+@import "experts";
+@import "footer";

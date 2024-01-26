@@ -1,0 +1,25 @@
+.brand {
+  padding: 128px 0 82px;
+  background: #E2E6E9;
+}
+.brand__inner {
+}
+.brand__title {
+  margin-bottom: 32px;
+}
+.brand__list {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+  gap: 39.5px;
+}
+.brand__item {
+  max-width: 225px;
+}
+.brand__link {
+  display: block;
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
